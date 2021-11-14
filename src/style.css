@@ -1,0 +1,68 @@
+:root {
+    --color:#3c4f5f;/*631212*/
+}
+
+body {
+    margin: 0;
+}
+#container {
+    background-color: var(--color);
+    display: flex;              /* establish flex container */
+    flex-direction: ;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    height: 99.8vh;
+    border: 1px solid black;
+}
+
+#quote-box {
+    background: white;
+    width: 500px;
+    padding: 40px;
+    border-radius: 5px;
+}
+#buttons {
+    display: flex;
+    justify-content:space-between;
+      
+    
+}
+#icon,#icon-2,#icon-3{
+    color: var(--color);
+    padding-right: 10px;
+}
+
+#icon-2,#icon-3 {
+    font-size: 40px;
+    display: inline;
+
+}
+
+#icon-2:hover,#icon-3:hover,button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#text {
+    text-align: center;
+    color:var(--color);
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+#author {
+    text-align: right;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    padding:12px;
+    width: 100px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    background: var(--color);
+
+}
